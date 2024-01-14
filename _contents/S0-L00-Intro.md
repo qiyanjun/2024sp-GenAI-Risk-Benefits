@@ -2,11 +2,10 @@
 layout: post
 title: Introduction
 lecture: S0-Intro
-lectureVersion: next
+lectureVersion: current
 extraContent: 
-notes: <a href="">Survey</a>
-video:  <a href=""  target="_blank">Survey</a>
-categories: basics
+notes: team-1
+video:  team-2
 tags:
 - 1Basic
 ---
@@ -23,6 +22,8 @@ In this session, our readings cover:
   + Attention 
   + Self-Attention (2016 – now )
   + Transformer (attention only Seq2Seq)
-  + BERT / RoBERTa/ XLNet/ GPT-2 / ...
+  + BERT / RoBERTa/ XLNet/ GPT / ...
 
 
+notes: <a href="">Survey</a>
+video:  <a href=""  target="_blank">Survey</a>

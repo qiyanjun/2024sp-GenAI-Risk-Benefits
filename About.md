@@ -4,7 +4,6 @@ title: Syllabus
 desc: "Information for 2024 Spring UVa CS -GenAI-Risk-Benefits"
 ---
 
-<hr>
 
 ### [The official Academic Calendar at UVA Registrar](http://www.virginia.edu/registrar/calendar.html)
 
@@ -14,57 +13,30 @@ desc: "Information for 2024 Spring UVa CS -GenAI-Risk-Benefits"
 + Rice 340
 
 
-### General Description:
+### General Description and Disclaimer: 
 
-+ Machine Learning is concerned with building computer programs that automatically improve through experience. This 3-credit course covers introductory-level topics about the theory and practical algorithms for machine learning from a variety of perspectives. Topics include supervised learning (especially modern deep learning), unsupervised learning, learning theory, and RL.  (My version will be taught and organized independently from the other session). This Spring, I will focus on deep learning and add many examples of the real-world applications.
-
-+ Assignments include multiple short programming and writing assignments for hands-on experiments of various machine learning algorithms and multiple in-class quizzess.
-
-+ Objective of this course: 
-  + Goal: To help students get capable in building machine learning tools (not just a tool user!!!) 
-  + Key Results: (1) to build multiple machine learning methods from scratch, and (2) to understand complex machine learning methods at the source code level. 
-
-
-+ More concrete goals we aim to train our students: 
-  1. You should build up a solid mathematical background. From probability to statistics / From multivariate calculus, to matrix algebra, e.g. VERY comfortable on gradients.
-
-  2. You should build up a general knowledge of machine learning. You don’t need to know every single special algorithms and architecture, but the basics help. You should get comfortable with the main concepts and terminology. 
-
-  3. You should become familiar with at least one machine learning and one deep learning library. You should feel pretty confident in implementing some simple do supervised learning algorithms at least.
-
-  4. You should write own implementations. Limited by the time scope of the course, we only have a few implementation finished by the end. But you should implement as many of the learning algorithms from scratch as you can after the course. This is the best way to deepen your understanding of how they work, as well as to develop intuitions for specific performance characteristics.
++ It is quite hard to make important topics of Generative AI fit on a one-semester schedule.  We aim to make the course reasonably digestible in an seminar team-learning manner. Our goals here are to highlight the most timing research topics relating to GenAI risks and benefits, and to expose the trade-offs. We think this teaching style provides students with research centered learning on both knowledge and workflows, helping them build a quick understanding of State-of-the-Art in GenAI.
 
 
 
 ### Prerequisite:
 
-+ Students should have had good programming skills and program well using python  (required) !
-+ Required courses as prerequisites: Calculus, Matrix algebra,  Probability and  Algorithm. Statistics is recommended.
-
-+ If you are unsure of your math background, please check out the following two review lectures I made: 
-
-  - [Basic prerequisite on Algebra and Calculus](https://qiyanjun.github.io/2024sp-UVA-CS-MachineLearningDeep//contents/S0-L01-Basics/)
-  - [Basic prerequisite on probability](https://qiyanjun.github.io/2024sp-UVA-CS-MachineLearningDeep//contents/S2-L01-probMLE/)
-
-  -  If you are comfortable with the contents in above lectures, you will be fine for our class.
++ Required courses as prerequisites: Machine Learning; Deep learning. The seminar is for research-focused graduate students with interests in deep learning, privacy, fairness, security, and related topics. Instructor permission is required to enroll, and decisions about enrollment will be based on what you are able to bring to the seminar.
 
 
-+ A more detailed list of prerequisites knowledges and skills you are recommended to have before taking this course: 
+### Course Expectations
 
-| Fields       |  Topics    |
-| :------- | :---------------------------------------- |
-|  Multivariate Calculus: |  - Derivatives (including partial) | 
-|                          | - gradient, Jacobian, Hessian     |
-|  Matrix Algebra: |  - Rank, Trace, Determinant, Orthonormal, symmetrict, ... | 
-|                          | - Positive Semidefinite,  Positive Definite  |
-|                          | - Eigen Decomposition, Singular Value Decomposition |
-|  Probability: |  - Bernoulli, Gaussian, Multinomial | 
-|                          | - Conditional, Joint, Marginal     |
-|                          | - Maximum Likelihood Estimation     |
-|  Algorithms: |  - O(), asymptotic run time / memory complexity | 
-|                          | - Matrix Computation,  Strassen's    |
-|                          | - P / NP ...    |
-|                          | - Vectorization, Memory Hierarchy    |
+Students in the seminar are expected to:
+
++ Lead discussions on interesting topics during the class meetings. For each week, there will be a team of students charged with preparing a topic, making slide deck and leading the discussion, and another team charged with writing a blog post about the class. Students responsible for posting the blog summary will be different from the ones charged with leading the topic discussion, but should work closely with the leaders on the posted write-up.
+
++ Participate actively in class meetings. This means being prepared to contribute by doing the assigned preparation (which will typically involve reading a few research papers, but may involve other things also) and thinking about the materials deeply to be able to contribute well to discussions. Part of this preparation will involve responding in writing to questions posed before the class.
+
+
+
+### Course Websites
+
++ Course schedule and materials are  @ [https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/)
 
 
 
@@ -72,111 +44,75 @@ desc: "Information for 2024 Spring UVa CS -GenAI-Risk-Benefits"
 
 + ##### Prof. Yanjun Qi: 
   - [Homepage](http://www.cs.virginia.edu/yanjun/){:target="_blank"}
-  - [yanjun@virginia.edu](mailto:instructors22spring-machinelearningdeep@collab.its.virginia.edu);  
+  - [yanjun@virginia.edu](mailto:24sp-cs6501-010-teachers@collab.its.virginia.edu);  
 
 
 + ##### TAs: 
-   + [instructors22spring-machinelearningdeep@collab.its.virginia.edu](mailto:instructors22spring-machinelearningdeep@collab.its.virginia.edu): 
-   + Shrivastava, Aman (as3ek) 
-   + Will Peterson
-   + Zhe Wang
+   + [24sp-cs6501-010-teachers@collab.its.virginia.edu](mailto:24sp-cs6501-010-teachers@collab.its.virginia.edu),
+
 
 + #### TA office hours and recitals
-  - Via Course Slack Space / Link Shared via Collab maillist
-  - Mon: 5pm-6pm by Aman
-  - Wed: 5pm-6pm By Zhe Wang
-  - Fri: 1pm-2:30pm By William Christopher Peterson
-  
+  - Via Course Slack Space / Link Shared via course maillist
+  - Fri: 5pm By xxxx
 
+#### Course QA Slack Space 
 
-+ #### Recital lectures about ML platforms
-  - We will have recital sessions from instructor, or TA or  invited 
-  speakers to teach students about deep learning platforms or libraries. Specific dates will be communicated via our Collab maillist.  So far we plan to have recital topics like: 
-    - Machine Learning in the cloud: AWS invited speaker
-    - RL Gym – invited speaker
-    - Adversarial ML – invited speaker
-
-
-### Course Websites
-
-+ Course schedule and materials are  @ [https://qiyanjun.github.io/2024sp-UVA-CS-MachineLearningDeep/](https://qiyanjun.github.io/2024sp-UVA-CS-MachineLearningDeep/)
-+ Course Slack space for QA of exams, quizzes, class-discussions and assignments.
-+ Course Collab page to submit  assignments [machine-learning22sp-cs-4774-001@collab.its.virginia.edu](mailto:machine-learning22sp-cs-4774-001@collab.its.virginia.edu)
-
-
-### Course QA Slack Space 
-
-
-+ Course Slack Space: We use Course Slack for office hour assistances and QA discussions on lectures and Quizzes.  Please ask all technical questions about the course content, Quiz and homeworks on Course Slack. 
-
-+ We will also use this slack space for QAs on Assignments.  This is the place where you can seek help, offer help, share your thoughts and discoveries, or discuss technical difficulties and potential troubleshooting on the assignments. 
++ Course Slack Space: We use Course Slack for office hour assistances and QA discussions.  This is the place where you can seek help, offer help, share your thoughts and discoveries, or discuss technical difficulties and potential troubleshooting on the assignments. 
 
 
 ### Course Grading Policy
   The grade will be calculated as follows:
-+ Assignments (75%, with five assignments)
-+ Class quizzes (25%): each takes 10 mins via google form;  
++ Five Presentation Assignments (50%, with five slide decks (google slide) and reading sessions to lead )
++ Five Blogpost Assignments: (50% with five blogposts to write, each blogpost (github pages post) is about one reading session)  
 
 
+#### Leading Team Schedule
 
-### Assignment due dates, Lateness and Extensions
+As the leading team, your job is to select a worthwhile topic, decide on a reading assignment (which can include things other than reading and is not limited to typical research papers) for the class, write questions that the class should write responses to in preparation for the discussion, and lead an interesting, engaging, and illuminating class!
 
-+ Unless otherwise specified, assignments should be submitted through collab and are due  <b>
-at 11:59pm on the due date </b>.
-+ Programming solutions should be placed in each student's appropriate
- Collab  directory.
+You have two class sessions to present your topic (Tues and Thurs meetings), so please don’t just give a series of unconnected, dull presentations. You need to think of things to do in class to make it more worthwhile and engaging. Some of your class may be presenting ideas using slides, but you should aim to also include other things such as whiteboard presentations, code demos, class discussions, class activities, etc.
 
-+ #### All communications regarding late assignment submissions should go directly to [instructors22spring-machinelearningdeep@collab.its.virginia.edu](mailto:instructors-22sp-cs-6316@collab.its.virginia.edu), not with the instructor.
+Two weeks before your team is scheduled to lead, you should have an idea what you want to do, tentative list of readings or other materials, and send this to instructor by 5:29pm on the Monday. We will give you some quick feedback on this, and we can meet after class on Tuesday to discuss.
 
-+ About Extensions:
-  + Each student has <b>ten</b> extension days to be used at his or
-her own discretion throughout the entire course.
-  + Your grades would be
-discounted by 10% per day when you use these late days.
-  + You could use the days in whatever combination you like. For example,
-all days on 1 assignment or 1 each day
-over assignments and reports (for a maximum grade of 90% on each).
-  + After you've used all late days, you cannot get credit
-for anything turned in late.
+One week before your team is scheduled to lead, you should post the materials for the week, including the response questions or activities, on the course discussion site. So, the team leading on 02/12 September should do this by 0205 at 5:29pm.
+
+For teams leading the first few weeks, this schedule is not possible, so is adjusted in the schedule below. The team leading 01/23 will get a rough plan from instrutors on the first class, and submit a plan for posting by 5:29pm on 01/22. The team leading the second week 01/30 should decide on a general plan for the week and send it to instrutors by 5:29pm on 01/27. Then, the materials should be ready for posting by 01/29.
+
+After you’ve completed the class meeting, you should help the Blogging team by providing them with your materials, answering their questions, and reviewing their write-up.
+
+Preparation Deadlines
+
+All deadlines are at 5:29pm on the date listed.
+
+
+#### Blogging Team
+
+The blogging team is responsible for writing a post that summarizes the materials and discussion for the class. A draft of the blog should be submitted as a pull request no later than the following Monday (so the blog for the week of 02/13 is due on Monday 02/19.
+
+Before the scheduled class, develop a team plan for how to manage the blogging. One team member should be designated the team leader for the blogging. The blogging leader is responsible for making sure the team is well coordinated and everyone knows what they are doing and follows through on this. The blogging team should take detailed notes (this can be distributed among the team — make sure you know who is responsible for taking notes on each part).
+
+Note that as the blogging team, you are not expected to post responses or questions this week (although you may if you want to, of course), but you are still expected to participate actively in the class.
+
+By the Monday following class, have a draft of the blog post ready, and share it with the rest of the class (including the leading team and coordinators) for comments. Instructions for how to prepare the blog post are on the Blogging Mechanics page.
+
+By the following Friday, have a final version of the blog post ready to add to the course site.
+
 
 
 ### Logistics Information
 + Announcements are being emailed to the course mailing list.
-+ A welcome note will be sent to the mailing  list early in the semester.
++ A welcome note will be sent to the mailing list early in the semester.
 + If you do not receive the welcome message the second week of the course, please
 send mail to the instructor.
 + Errata and answers to questions are being discussed and answered
    on  the course Slack site and through course email-list.
 
 
+#### All communications regarding late assignment submissions should go directly to [24sp-cs6501-010-teachers@collab.its.virginia.edu](mailto:24sp-cs6501-010-teachers@collab.its.virginia.edu), not with the instructor.
 
 
-### Text Book
-+ No required text book.
-+ Course slides and handouts are self-contained.
-+ Multiple reference books are shared below
-
-
-### Extra Useful references
-
-+ [Deep Learning with Python](https://www.amazon.com/Learning-Python-Second-Fran-C3-A7ois-Chollet-dp-1617296864/dp/1617296864/ref=dp_ob_title_bk) by Francois Chollet
-
-
-+ [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook)
-
-+ [fast.ai Making neural nets uncool again](https://www.fast.ai/)
-
-+ [Deep Learning, An MIT Press book in preparation, Ian Goodfellow, Yoshua Bengio and Aaron Courville](https://www.deeplearningbook.org/lecture_slides.html)
-
-+ [Stanford Machine Learning Course Youtube Videos (by Andrew Ng)](https://www.youtube.com/view_play_list?p=A89DCFA6ADACE599)
-+ [Yaser Abu-Mostafa : Caltech course: Learning from data](https://www.youtube.com/playlist?list=PLD63A284B7615313A)+ [book](https://work.caltech.edu/textbook.html)
-
-+ Following books are great resources for advanced machine learning:
-  + [Elements of Statistical Learning](http://www.stanford.edu/~hastie/local.ftp/Springer/OLD//ESLII_print4.pdf) by by Hastie, Tibshirani and Friedman.
-  + [Pattern Recognition and Machine Learning](https://www.springer.com/us/book/9780387310732), by Christopher Bishop.
-  + [Yaser Abu-Mostafa:  Learning from data](https://work.caltech.edu/textbook.html)  
-  +[my Notes2Learn large scale machine Learning](http://www.cs.virginia.edu/yanjun/list2LearnLearning.htm)
-  + [my Notes2 Learn Deep Learning](https://qdata.github.io/deep2Read/)
+#### Text Book
++ No text book. Many many papers to read ..
 
 
 ### Academic Integrity
