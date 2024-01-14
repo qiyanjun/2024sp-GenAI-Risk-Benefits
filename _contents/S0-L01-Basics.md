@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GenAI Risk framework
+title: AI Risk framework
 lecture: S0-Intro
 lectureVersion: next
 extraContent: 
