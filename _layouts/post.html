@@ -8,7 +8,7 @@ layout: default
   {% assign post = page  %} 
  <ul>
   {% if post.lecture %}
-  <li><a href="{{ site.baseurl }}/Lectures/{{ post.lecture }}.pdf"  target="_blank">Lecture: 
+  <li><a href="{{ site.baseurl }}/Lectures/{{ post.lecture }}.pdf"  target="_blank">SlideDeck: 
   {{ post.lecture }}</a></li>
   <li>Version: {{ post.lectureVersion }}</li>
   {% endif %}
@@ -22,11 +22,12 @@ layout: default
 
 
   {% if post.notes %}
-  <li>Please to Read: {{ post.notes }} </li>
+  <li>Lead to Read: {{ post.notes }} </li>
   {% endif %}
 
+
   {% if post.video %}
-  <li>Recorded Videos: {{ post.video }} </li>
+  <li>Post to write: {{ post.video }} </li>
   {% endif %}
 
   {% if post.extraContent %}
@@ -47,7 +48,6 @@ layout: default
 
 <br>
 
-<h2> Att: the following markdown text was generated from the corresponding powerpoint lecture file automatically. Errors and misformatting, therefore, do exist (a lot!)! </h2>
 
     {{ post.content }}
 
