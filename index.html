@@ -1,0 +1,129 @@
+---
+layout: default
+title: Home
+desc: 'Website for 2024 Spring -UVA-CS 2024sp-GenAI-Risk-Benefits (Graduate Advanced)'
+---
+
+<p><a name="topPage"></a></p>
+
+<div>
+
+<ul>
+  <li>Feel free to email me, when you find my typos or have comments. The covered materials are by no means an exhaustive list of machine learning, but are contents that we have taught or plan to teach in my machine learning introductory course.
+</li>
+  <li>
+    Please pay attention to special dates: <font color="#990000"><b>(0305,0307)</b></font> no class, spring recess; <font color="#990000"><b>(0202)</b></font> Add Last day; <font color="#990000"><b>(0203)</b></font> Drop Last day;   <font color="#990000"><b>(0430)</b></font> Last lesson day of Spring 2024 .  
+  </li>
+  <br>
+  <li><p style="color:blue;">Disclaimer: it is quite hard to make important topics of Generative AI  fit on a one-semester schedule.  We aim to make the course reasonably digestible in an seminar team-learning manner. We try to focus on a modularity view by introducing important variables to digest machine learning into chunks regarding data/ representation / loss-functions / optimizations / model characteristics. That said, our goals here are to highlight the most foundational design choices in machine learning about algorithm designs,  workflows, what to learn and how to learn it, and to expose the trade-offs in those choices. We think this teaching style provides students with context concerning those choices and helps them build a much deeper understanding. </p>
+ </li>
+</ul>
+</div>
+
+<hr>
+
+
+<h1>  Website for 2024 Spring-UVA-CS GenAI Risk and Benefits (Graduate Advanced)  </h1>
+
+
+
+<hr>
+
+<h2>  Course Schedule and Notes  </h2>
+
+
+<p><font color="#990000"><b>The schedule below is tentative and is continually subject to change; We will move at whatever pace we find comfortable.&nbsp;</b></font>&nbsp;</p>
+
+<div class="posts">
+
+<table id="datatab3"  summary="Table of Lectures" border="1">
+<tr>
+ <h3><b>
+  <th>Date</th>
+  <th>Week</th>
+  <th>Qz</th>
+  <th>Title / Post</th>
+  <th>Lecture PDF</th>
+  <th>Focus</th>
+  <th>Video (Split2Modules)</th>
+  <th>Study Note</th>
+  </b>
+  </h3>
+</tr>
+
+{% assign counter = 0 %}
+{% assign Qcounter = 0 %}
+
+{% assign currentTag = 0 %}
+{% assign sorted = site.contents %}
+
+{% assign ddates = "|0118|0123|0125|01/30|0201|0206|0208|0213|0215|0220|0222|0227|0229|0312|0314|0319|0321|0326|0328|0402|0404|0409|0411|0416|0418|0423|0425|0430 " | split: "|" %}
+
+{% assign dweeks = "|W1|W2|W2|W3|W3|W4|W4|W5|W5|W6|W6|W7|W7|W8|W8|W9|W9|W10|W10|W11|W11|W12|W12|W13|W13|W14|W14|W15 " | split: "|" %}
+
+
+{% for post in sorted %}
+
+
+{% if currentTag == 0 %}
+  {% unless post.lectureVersion contains 'current'  %}
+    <tr><td align="center" bgcolor="#fff48f"  colspan="9">
+      <font color="#990000"><b>WE ARE HERE</b></font></td>
+    </tr>
+    {% assign currentTag=currentTag | plus:1 %}
+  {% endunless %}
+{% endif %}
+
+{% if  post.title contains "Section" %}
+  <tr><td align="center" bgcolor="#bafdfb"  colspan="9">
+      <font color="#990000"><h3><b>{{ post.title }}</b>
+      </h3></font></td>
+    </tr>
+{% else %}
+
+{% if  post.extra  %}
+  <tr bgcolor="#cccdc2" >
+  <td >Extra </td>
+  <td >Extra </td>
+  <td></td>
+{% elsif post.platform %}
+  <tr bgcolor="#81de76" >
+  <td >Platform </td>
+  <td >Platform </td>
+  <td></td>
+{% else %}
+  {% assign counter=counter | plus:1 %}
+  <tr >
+  <td>{{ ddates[counter] }} </td>
+  <td>{{ dweeks[counter] }}</td>
+
+{% endif %}
+
+<td><a href="{{ site.baseurl }}{{ post.url }}" >{{ post.title }}</a></td>
+
+{% if post.lecture %}
+<td><a href="{{ site.baseurl }}/Lectures/{{ post.lecture }}.pdf"  target="_blank"> Slides: {{ post.lecture }}</a></td>
+{% else %}
+<td></td>
+{% endif %}
+
+
+<td align="center"><font color="#990000"><b>{{ post.categories }} </b></font></td>
+
+
+<td>{{ post.video }} </td>
+
+<td>{{ post.notes }} </td>
+
+</tr>
+
+{% endif %}
+
+{% endfor %}
+
+</table>
+
+
+<div style="position: fixed; bottom: 76px; right:10px; width: 88px; height: 36px; background-color: #FFCF79;">
+<a style="position: fixed; bottom:80px; right:10px;" href="#topPage" title="Back to Top">BackTop</a>
+</div>

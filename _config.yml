@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:      pretty
+baseurl: 	    	/2024sp-GenAI-Risk-Benefits/
+url:            https://qiyanjun.github.io/
+
+# Setup
+title:            	"2024 Spring UVA CS - GenAI-Risk-Benefits"
+tagline:          	"2024 Spring"
+description:        "TuTh 9:30am-10:45am"
+future: 			true
+
+author:
+  name:           'Dr. Yanjun Qi'
+  url:            https://www.yanjunqi.org/
+
+
+collections:
+  contents:
+    sort_by: LOrder
+    output: true

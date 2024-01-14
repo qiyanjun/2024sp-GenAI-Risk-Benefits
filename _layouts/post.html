@@ -1,0 +1,54 @@
+---
+layout: default
+---
+
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+
+  {% assign post = page  %} 
+ <ul>
+  {% if post.lecture %}
+  <li><a href="{{ site.baseurl }}/Lectures/{{ post.lecture }}.pdf"  target="_blank">Lecture: 
+  {{ post.lecture }}</a></li>
+  <li>Version: {{ post.lectureVersion }}</li>
+  {% endif %}
+
+
+  {% if post.extraContent %}
+  <td><a href="{{ site.baseurl }}/Lectures/{{ post.extraContent }}.pdf"  target="_blank"> Notes: {{ post.extraContent }}</a></td>
+  {% else %}
+    <td></td>
+  {% endif %}
+
+
+  {% if post.notes %}
+  <li>Please to Read: {{ post.notes }} </li>
+  {% endif %}
+
+  {% if post.video %}
+  <li>Recorded Videos: {{ post.video }} </li>
+  {% endif %}
+
+  {% if post.extraContent %}
+  <li>Advanced to Read: <a href="{{ site.baseurl }}/Lectures/{{ post.extraContent }}.pdf"  target="_blank">   {{ post.extraContent }} </a></li>
+  {% endif %}
+
+ {% if post.morenotes %}
+  <li>Extra Notes to Read: {{ post.morenotes }} </li>
+  {% endif %}
+
+</ul>
+
+
+
+  {% for temp in post.tags %}
+    <a class="button" href="{{ site.baseurl }}/LecturesByTags/#{{temp | replace:" ","-" }}">{{ temp }}</a>
+  {% endfor %}
+
+<br>
+
+<h2> Att: the following markdown text was generated from the corresponding powerpoint lecture file automatically. Errors and misformatting, therefore, do exist (a lot!)! </h2>
+
+    {{ post.content }}
+
+</div>
