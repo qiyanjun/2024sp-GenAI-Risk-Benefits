@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Topics
+title: ReadingByTag
 desc: "2024 Spring  UVa CS Machine Learning Lectures Organized by Tags"
 ---
 <p><a name="topPage"></a></p>
@@ -45,22 +45,14 @@ Click on a tag to see relevant list of lectures.
  
   <tr>
 
-  {% if t contains "0Logistics" %}
   <td><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }} </a></td>
-  {% else %}
-  <td>{{ post.title }}</td>
-  {% endif %}
 
   {% if post.lecture %}
-  <td><a href="{{ site.baseurl }}/Lectures/{{ post.lecture }}.pdf"  target="_blank">Slide</a></td>
+  <td><a href="{{ site.baseurl }}/Lectures/{{ post.lecture }}.pdf"  target="_blank">SlideDeck</a></td>
   {% else %}
   <td></td>
   {% endif %}
 
-
-
-  <td>{{ post.notes }} </td> 
-  <td> {{ post.video }}</td> 
 
   </tr>
 
