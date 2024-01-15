@@ -6,18 +6,12 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
 
   {% assign post = page  %} 
+  
  <ul>
   {% if post.lecture %}
   <li><a href="{{ site.baseurl }}/Lectures/{{ post.lecture }}.pdf"  target="_blank">SlideDeck: 
   {{ post.lecture }}</a></li>
   <li>Version: {{ post.lectureVersion }}</li>
-  {% endif %}
-
-
-  {% if post.extraContent %}
-  <td><a href="{{ site.baseurl }}/Lectures/{{ post.extraContent }}.pdf"  target="_blank"> Notes: {{ post.extraContent }}</a></td>
-  {% else %}
-    <td></td>
   {% endif %}
 
 
@@ -30,14 +24,6 @@ layout: default
   <li>Post to write: {{ post.video }} </li>
   {% endif %}
 
-  {% if post.extraContent %}
-  <li>Advanced to Read: <a href="{{ site.baseurl }}/Lectures/{{ post.extraContent }}.pdf"  target="_blank">   {{ post.extraContent }} </a></li>
-  {% endif %}
-
- {% if post.morenotes %}
-  <li>Extra Notes to Read: {{ post.morenotes }} </li>
-  {% endif %}
-
 </ul>
 
 
@@ -48,7 +34,9 @@ layout: default
 
 <br>
 
+  {{ post.content }}
 
-    {{ post.content }}
 
 </div>
+
+

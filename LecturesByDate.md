@@ -68,8 +68,8 @@ desc: "2024 Spring  UVa CS Machine Learning Lectures Organized by Given Order"
 </div>
 
 
-<div style="position: fixed; bottom: 76px; right:10px; width: 88px; height: 36px; background-color: #FFCF79;">
-<a style="position: fixed; bottom:80px; right:10px;" href="#topPage" title="Back to Top">BackTop</a>
+<div style="position: fixed; bottom: 76px; left:10px; width: 88px; height: 36px; background-color: #FFCF79;">
+<a style="position: fixed; bottom:80px; left:10px;" href="#topPage" title="Back to Top">BackTop</a>
 </div>
 
 
