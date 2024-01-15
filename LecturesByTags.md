@@ -32,8 +32,6 @@ Click on a tag to see relevant list of lectures.
  <h3><b>
   <th>Title</th>
   <th>Lecture</th>
-  <th>Notes</th>
-  <th>Video</th>
   </b>
   </h3>
 </tr>

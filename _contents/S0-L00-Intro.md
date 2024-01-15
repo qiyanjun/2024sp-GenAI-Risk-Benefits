@@ -11,8 +11,7 @@ tags:
 ---
 
 
-In this session, our readings cover: 
-- What is NLP?
+In this session, our readings cover: What is NLP?
 - Typical NLP tasks / Challenges / Pipeline
 - f() on natural language
   + Before Deep NLP (Pre 2012) • (BOW / LSI / Topic Modeling LDA )
