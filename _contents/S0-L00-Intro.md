@@ -25,5 +25,3 @@ In this session, our readings cover:
   + BERT / RoBERTa/ XLNet/ GPT / ...
 
 
-notes: <a href="">Survey</a>
-video:  <a href=""  target="_blank">Survey</a>
