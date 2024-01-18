@@ -51,6 +51,7 @@ Students in the seminar are expected to:
 
 + Email instructors via [24sp-cs6501-010-teachers@collab.its.virginia.edu](mailto:24sp-cs6501-010-teachers@collab.its.virginia.edu)
 
+
 +  Corrections or comments to [yanjun@virginia.edu](mailto:24sp-cs6501-010-teachers@collab.its.virginia.edu)
 
 + ##### Instructors: 
@@ -97,6 +98,8 @@ All deadlines are at 5:29pm on the date listed.
 
 
 #### Blogging Team
+
++ Course Github site to PR your blogpost at [here](https://github.com/qiyanjun/2024sp-GenAI-Risk-Benefits)
 
 The blogging team is responsible for writing a post that summarizes the materials and discussion for the class. A draft of the blog should be submitted as a pull request no later than the following Monday (so the blog for the week of 02/13 is due on Monday 02/19.
 
