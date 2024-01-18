@@ -5,7 +5,7 @@ lecture:
 lectureVersion: current
 extraContent: 
 notes: instructor
-video: logistics
+video: on nlp basics
 ---
 
 
