@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introduction
-lecture: S0-Intro
+lecture: 
 lectureVersion: current
 extraContent: 
 notes: instructor
