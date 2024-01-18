@@ -13,60 +13,71 @@ desc: "Information for 2024 Spring UVa CS -GenAI-Risk-Benefits"
 + Rice 340
 
 
+### Prerequisite:
+
++ Required courses as prerequisites: Machine Learning; Deep learning. The seminar is for research-focused graduate students with interests in generative deep learning models, privacy, fairness, security, and related topics. 
+
+
 ### General Description and Disclaimer: 
+
++ The course will take the form of a seminar instead of lectures by the instructor. 
+
++ Each class session starts by summarizing questions from all the participants on the current session, followed by a presentation (lecture) by a student group, and ended with classroom discussion on the collected and new questions. After each class session, another team of students will write a blogpost on the topic. All the students are required to read every session's required readings before it is discussed in a class, and sent their questions through Collab in advance.
+
 
 + It is quite hard to make important topics of Generative AI fit on a one-semester schedule.  We aim to make the course reasonably digestible in an seminar team-learning manner. Our goals here are to highlight the most timing research topics relating to GenAI risks and benefits, and to expose the trade-offs. We think this teaching style provides students with research centered learning on both knowledge and workflows, helping them build a quick understanding of State-of-the-Art in GenAI.
 
 
-
-### Prerequisite:
-
-+ Required courses as prerequisites: Machine Learning; Deep learning. The seminar is for research-focused graduate students with interests in deep learning, privacy, fairness, security, and related topics. Instructor permission is required to enroll, and decisions about enrollment will be based on what you are able to bring to the seminar.
 
 
 ### Course Expectations
 
 Students in the seminar are expected to:
 
-+ Lead discussions on interesting topics during the class meetings. For each week, there will be a team of students charged with preparing a topic, making slide deck and leading the discussion, and another team charged with writing a blog post about the class. Students responsible for posting the blog summary will be different from the ones charged with leading the topic discussion, but should work closely with the leaders on the posted write-up.
++ For each week, there will be a team of students charged with preparing a topic, analyzing, delivering a lecture and leading the classroom discussions. Another team of students is charged with writing a blog post about that class. Students responsible for posting the blog summary will be different from the ones charged with leading the topic discussion, but should work closely with the leaders on the posted write-up.
 
-+ Participate actively in class meetings. This means being prepared to contribute by doing the assigned preparation (which will typically involve reading a few research papers, but may involve other things also) and thinking about the materials deeply to be able to contribute well to discussions. Part of this preparation will involve responding in writing to questions posed before the class.
++ Participate actively in class meetings. This means being prepared to contribute by doing the assigned preparation (which will typically involve reading a few research papers, but may involve other things also) and thinking about the materials deeply to be able to contribute well to discussions. Part of this preparation will involve writing and posting questions before each class.
 
 
 
 ### Course Websites
 
-+ Course schedule and materials are  @ [https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/)
++ Course schedule and materials  @ [https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits/)
+
++ Discussion and assignment submissions via [Collab site:](https://collab.its.virginia.edu/portal/site/df44ac26-4864-4413-92a8-159dd29f3081) 
+
++ Course annoucement via: [24sp-cs-6501-genai@collab.its.virginia.edu](24sp-cs-6501-genai@collab.its.virginia.edu)
 
 
++ Email instructors via [24sp-cs6501-010-teachers@collab.its.virginia.edu](mailto:24sp-cs6501-010-teachers@collab.its.virginia.edu)
 
-### Instructors
++  Corrections or comments to [yanjun@virginia.edu](mailto:24sp-cs6501-010-teachers@collab.its.virginia.edu)
 
-+ ##### Prof. Yanjun Qi: 
-  - [Homepage](http://www.cs.virginia.edu/yanjun/){:target="_blank"}
-  - [yanjun@virginia.edu](mailto:24sp-cs6501-010-teachers@collab.its.virginia.edu);  
-
-
-+ ##### TAs: 
-   + [24sp-cs6501-010-teachers@collab.its.virginia.edu](mailto:24sp-cs6501-010-teachers@collab.its.virginia.edu),
-
-
-+ #### TA office hours and recitals
-  - Via Course Slack Space / Link Shared via course maillist
-  - Fri: 5pm By xxxx
-
-#### Course QA Slack Space 
-
-+ Course Slack Space: We use Course Slack for office hour assistances and QA discussions.  This is the place where you can seek help, offer help, share your thoughts and discoveries, or discuss technical difficulties and potential troubleshooting on the assignments. 
++ ##### Instructors: 
+  - Prof. Yanjun Qi / [yanjun@virginia.edu](mailto:24sp-cs6501-010-teachers@collab.its.virginia.edu);
+  - TA: [Zhe Wang](mailto:24sp-cs6501-010-teachers@collab.its.virginia.edu) 
+  - TA office hours: Fri: 6pm at XXX (TBD)
 
 
 ### Course Grading Policy
-  The grade will be calculated as follows:
-+ Five Presentation Assignments (50%, with five slide decks (google slide) and reading sessions to lead )
-+ Five Blogpost Assignments: (50% with five blogposts to write, each blogpost (github pages post) is about one reading session)  
+
++ No exams in this course.
++ Sit-in: No. This course is for registered students only.
+
++ Final grades will be based on.
+  - 15% for the quality of your submitted questions before class and discussions in class;
+  - 40% for the quality of your seminar presentations;
+  - 25% for the quality of your blogposts ;
+  - 20% for the quality of written project reports by each individual in the second half of the semester
 
 
-#### Leading Team Schedule
+#### Question from each student before each class:
++ For each class' content, please submit at least 3 questions.
++ TA will grade your questions as assignments.
+ 
+
+
+#### Leading Team Expectation
 
 As the leading team, your job is to select a worthwhile topic, decide on a reading assignment (which can include things other than reading and is not limited to typical research papers) for the class, write questions that the class should write responses to in preparation for the discussion, and lead an interesting, engaging, and illuminating class!
 
@@ -97,22 +108,6 @@ By the Monday following class, have a draft of the blog post ready, and share it
 
 By the following Friday, have a final version of the blog post ready to add to the course site.
 
-
-
-### Logistics Information
-+ Announcements are being emailed to the course mailing list.
-+ A welcome note will be sent to the mailing list early in the semester.
-+ If you do not receive the welcome message the second week of the course, please
-send mail to the instructor.
-+ Errata and answers to questions are being discussed and answered
-   on  the course Slack site and through course email-list.
-
-
-#### All communications regarding late assignment submissions should go directly to [24sp-cs6501-010-teachers@collab.its.virginia.edu](mailto:24sp-cs6501-010-teachers@collab.its.virginia.edu), not with the instructor.
-
-
-#### Text Book
-+ No text book. Many many papers to read ..
 
 
 ### Academic Integrity
