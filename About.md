@@ -66,9 +66,9 @@ Students in the seminar are expected to:
 + Sit-in: No. This course is for registered students only.
 
 + Final grades will be based on.
-  - 15% for the quality of your submitted questions before class and discussions in class;
+  - 20% for the quality of your submitted questions before class and discussions in class;
   - 40% for the quality of your seminar presentations;
-  - 25% for the quality of your blogposts ;
+  - 20% for the quality of your blogposts ;
   - 20% for the quality of written project reports by each individual in the second half of the semester
 
 
