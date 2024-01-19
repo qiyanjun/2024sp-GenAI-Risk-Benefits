@@ -67,9 +67,9 @@ Students in the seminar are expected to:
 
 + Final grades will be based on.
   - 20% for the quality of your submitted questions before class and discussions in class;
+  - 20% for class attendance 
   - 40% for the quality of your seminar presentations;
   - 20% for the quality of your blogposts ;
-  - 20% for the quality of written project reports by each individual in the second half of the semester
 
 
 #### Question from each student before each class:
@@ -82,7 +82,7 @@ Students in the seminar are expected to:
 
 As the leading team, your job is to select a worthwhile topic, decide on a reading assignment (which can include things other than reading and is not limited to typical research papers) for the class, write questions that the class should write responses to in preparation for the discussion, and lead an interesting, engaging, and illuminating class!
 
-You have two class sessions to present your topic (Tues and Thurs meetings), so please don’t just give a series of unconnected, dull presentations. You need to think of things to do in class to make it more worthwhile and engaging. Some of your class may be presenting ideas using slides, but you should aim to also include other things such as whiteboard presentations, code demos, class discussions, class activities, etc.
+You have one class session to present your topic (either Tues or Thurs meetings), so please don’t just give a series of unconnected, dull presentations. You need to think of things to do in class to make it more worthwhile and engaging. Some of your class may be presenting ideas using slides, but you should aim to also include other things such as whiteboard presentations, code demos, class discussions, class activities, etc.
 
 Two weeks before your team is scheduled to lead, you should have an idea what you want to do, tentative list of readings or other materials, and send this to instructor by 5:29pm on the Monday. We will give you some quick feedback on this, and we can meet after class on Tuesday to discuss.
 
