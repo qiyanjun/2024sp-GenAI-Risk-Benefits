@@ -106,7 +106,7 @@ Before the scheduled class, develop a team plan for how to manage the blogging. 
 
 Note that as the blogging team, you are expected get the questions from the TA, answer questions in the blog to select important questions. You are not expected to lead the class, but you are expected to participate actively in the class.
 
-By the Monday following class, have a draft of the blog post ready, and share it with the rest of the class (including the leading team,  instructors and coordinators) for comments. Instructions for how to prepare the blog post are on the Blogging Mechanics page.
+By the Monday following class, have a draft of the blog post ready, and share it with the rest of the class (including the leading team,  instructors and coordinators) for comments. Instructions for how to prepare the blog post are on the [Blogging Tactics](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits//BloggingTactics/) page.
 
 By the following Friday, have a final version of the blog post ready to add to the course site.
 
