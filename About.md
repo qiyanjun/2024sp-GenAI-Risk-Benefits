@@ -38,7 +38,7 @@ Students in the seminar are expected to:
 
 + Participate actively in class meetings. This means being prepared to contribute by doing the assigned preparation (which will typically involve reading a few research papers, but may involve other things also) and thinking about the materials deeply to be able to contribute well to discussions. Part of this preparation will involve writing and posting questions before each class.
 
-
++ Each team is expected to include 4 to 6 students. 
 
 ### Course Websites
 
@@ -57,7 +57,8 @@ Students in the seminar are expected to:
 + ##### Instructors: 
   - Prof. Yanjun Qi / [yanjun@virginia.edu](mailto:24sp-cs6501-010-teachers@collab.its.virginia.edu);
   - TA: [Zhe Wang](mailto:24sp-cs6501-010-teachers@collab.its.virginia.edu) 
-  - TA office hours: Fri: 6pm at XXX (TBD)
+  - Instructor office hour: Mon: 7pm at Rice 503
+  - TA office hours: Wed: 7pm at Rice (TBD)
 
 
 ### Course Grading Policy
@@ -80,15 +81,13 @@ Students in the seminar are expected to:
 
 #### Leading Team Expectation
 
-As the leading team, your job is to select a worthwhile topic, decide on a reading assignment (which can include things other than reading and is not limited to typical research papers) for the class, write questions that the class should write responses to in preparation for the discussion, and lead an interesting, engaging, and illuminating class!
+As the leading team, your job is to decide what to cover in that class session ( sure to include class reading assignment and is not limited to typical research papers), prepare slide deck, and lead an interesting, engaging, and illuminating class!
 
-You have one class session to present your topic (either Tues or Thurs meetings), so please don’t just give a series of unconnected, dull presentations. You need to think of things to do in class to make it more worthwhile and engaging. Some of your class may be presenting ideas using slides, but you should aim to also include other things such as whiteboard presentations, code demos, class discussions, class activities, etc.
+You have one class session to present your topic (either Tues or Thurs meetings), so please don’t just give a series of unconnected, dull presentations. You need to think of things to do in class to make it more worthwhile and engaging. Most class sessions will include presenting ideas using slides, but you should aim to also include other things such as whiteboard presentations, code demos, class discussions, class activities, etc.
 
-Two weeks before your team is scheduled to lead, you should have an idea what you want to do, tentative list of readings or other materials, and send this to instructor by 5:29pm on the Monday. We will give you some quick feedback on this, and we can meet after class on Tuesday to discuss.
+One weeks before your team is scheduled to lead, you should have an idea what you want to do, tentative list of readings or other materials, and send this to instructor by 5:29pm on the Monday. We will give you some quick feedback on this, and we will meet on the Monday or Wedesday office hours to discuss.
 
-One week before your team is scheduled to lead, you should post the materials for the week, including the response questions or activities, on the course discussion site. So, the team leading on 02/12 September should do this by 0205 at 5:29pm.
-
-For teams leading the first few weeks, this schedule is not possible, so is adjusted in the schedule below. The team leading 01/23 will get a rough plan from instrutors on the first class, and submit a plan for posting by 5:29pm on 01/22. The team leading the second week 01/30 should decide on a general plan for the week and send it to instrutors by 5:29pm on 01/27. Then, the materials should be ready for posting by 01/29.
+The day before your team is scheduled to lead, you should post the materials for the class, including slide deck,  activities, on the course discussion site. So, the team leading on 02/12 September should do this by 0211 at 5:29pm.
 
 After you’ve completed the class meeting, you should help the Blogging team by providing them with your materials, answering their questions, and reviewing their write-up.
 
@@ -105,12 +104,11 @@ The blogging team is responsible for writing a post that summarizes the material
 
 Before the scheduled class, develop a team plan for how to manage the blogging. One team member should be designated the team leader for the blogging. The blogging leader is responsible for making sure the team is well coordinated and everyone knows what they are doing and follows through on this. The blogging team should take detailed notes (this can be distributed among the team — make sure you know who is responsible for taking notes on each part).
 
-Note that as the blogging team, you are not expected to post responses or questions this week (although you may if you want to, of course), but you are still expected to participate actively in the class.
+Note that as the blogging team, you are expected get the questions from the TA, answer questions in the blog to select important questions. You are not expected to lead the class, but you are expected to participate actively in the class.
 
-By the Monday following class, have a draft of the blog post ready, and share it with the rest of the class (including the leading team and coordinators) for comments. Instructions for how to prepare the blog post are on the Blogging Mechanics page.
+By the Monday following class, have a draft of the blog post ready, and share it with the rest of the class (including the leading team,  instructors and coordinators) for comments. Instructions for how to prepare the blog post are on the Blogging Mechanics page.
 
 By the following Friday, have a final version of the blog post ready to add to the course site.
-
 
 
 ### Academic Integrity
