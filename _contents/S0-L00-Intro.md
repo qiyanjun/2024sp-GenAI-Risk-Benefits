@@ -26,3 +26,6 @@ video: on nlp basics
   + Self-Attention (2016 – now )
   + Transformer (attention only Seq2Seq)
   + BERT / RoBERTa/ XLNet/ GPT / ...
+
+
++ A good code walk through on transformer at [URL](https://nlp.seas.harvard.edu/annotated-transformer/)
