@@ -38,7 +38,7 @@ Students in the seminar are expected to:
 
 + Participate actively in class meetings. This means being prepared to contribute by doing the assigned preparation (which will typically involve reading a few research papers, but may involve other things also) and thinking about the materials deeply to be able to contribute well to discussions. Part of this preparation will involve writing and posting questions before each class.
 
-+ Each team is expected to include 4 to 6 students. 
++ Each team is expected to include 4 to 5 students. 
 
 ### Course Websites
 
@@ -57,8 +57,9 @@ Students in the seminar are expected to:
 + ##### Instructors: 
   - Prof. Yanjun Qi / [yanjun@virginia.edu](mailto:24sp-cs6501-010-teachers@collab.its.virginia.edu);
   - TA: [Zhe Wang](mailto:24sp-cs6501-010-teachers@collab.its.virginia.edu) 
-  - Instructor office hour: Mon: 7pm at Rice 503
-  - TA office hours: Wed: 7pm at Rice (TBD)
+  - Instructor office hour: Mon: 7:30pm at Rice 
+  - TA office hours: Wed: 7:30pm at Rice 
+  - Blogging guide hour: Thur 7:30pm via Zoom
 
 
 ### Course Grading Policy
@@ -87,7 +88,7 @@ You have one class session to present your topic (either Tues or Thurs meetings)
 
 One weeks before your team is scheduled to lead, you should have an idea what you want to do, tentative list of readings or other materials, and send this to instructor by 5:29pm on the Monday. We will give you some quick feedback on this, and we will meet on the Monday or Wedesday office hours to discuss.
 
-The day before your team is scheduled to lead, you should post the materials for the class, including slide deck,  activities, on the course discussion site. So, the team leading on 02/12 September should do this by 0211 at 5:29pm.
+The day before your team is scheduled to lead, you should post the materials for the class to instructors, including slide deck,  activities, on the course discussion site. So, the team leading on 02/12 September should do this by 0211 at 5:29pm.
 
 After you’ve completed the class meeting, you should help the Blogging team by providing them with your materials, answering their questions, and reviewing their write-up.
 
@@ -100,7 +101,7 @@ All deadlines are at 5:29pm on the date listed.
 
 + Course Github site to PR your blogpost at [here](https://github.com/qiyanjun/2024sp-GenAI-Risk-Benefits)
 
-The blogging team is responsible for writing a post that summarizes the materials and discussion for the class. A draft of the blog should be submitted as a pull request no later than the following Monday (so the blog for the week of 02/13 is due on Monday 02/19.
+The blogging team is responsible for writing a post that summarizes the materials and discussion for the class. A draft of the blog should be submitted as a pull request no later than the following week's Thursday  (instrutors will go over your blogs in the Thursdays' 7:30pm hour office session).
 
 Before the scheduled class, develop a team plan for how to manage the blogging. One team member should be designated the team leader for the blogging. The blogging leader is responsible for making sure the team is well coordinated and everyone knows what they are doing and follows through on this. The blogging team should take detailed notes (this can be distributed among the team — make sure you know who is responsible for taking notes on each part).
 
@@ -108,7 +109,7 @@ Note that as the blogging team, you are expected get the questions from the TA, 
 
 By the Monday following class, have a draft of the blog post ready, and share it with the rest of the class (including the leading team,  instructors and coordinators) for comments. Instructions for how to prepare the blog post are on the [Blogging Tactics](https://qiyanjun.github.io/2024sp-GenAI-Risk-Benefits//BloggingTactics/) page.
 
-By the following Friday, have a final version of the blog post ready to add to the course site.
+By the following Friday, have a final version of the blog post ready and get posted into the course site.
 
 
 ### Academic Integrity
