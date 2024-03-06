@@ -9,11 +9,15 @@ Here are some suggestions for how to create the class blog posts for your assign
 + You should find your page in the _contents/ subdirectory. 
 + I have a simple version of each session's *.md 
 + Please find the right one for your blogging session and updating it with your content. 
-+ Don’t forget to update the date so your page will appear in the right order. You can put draft = true in the header, so your page will not appear on the course website until it is ready.
+
 
 + You can use multiple files (but probably only one in the _contents/ directory (this will show up as pages on the front list). For instance, Use the folder docs/images/ directory for images. Using images and other resources to make your post interesting and visually compelling is highly encouraged!
 
 + Write the blog page using Markdown. Markdown is a simple markup language that can be used to easily generate both HTML and other output document formats. You can probably figure out everything you need by looking at previous posts, but for a summary of Markdown, see Markdown: Syntax.
+
++ The lead team's slide deck is your best guide for the blogging contents. One toolkikt converting pptx to MD help you reduce workload when blogging https://github.com/ssine/pptx2md 
+
++ Please pay extra attention on the folder structure for  hosting images.. and how to cite images in a markdown MD file through  markdown variable on site-URL
 
 + You can incorporate latex math into your markdown. Use \\( inline \\) for inline math, e.g., \\( J_{min}\\} and $$ ... $$ for display math.
 
