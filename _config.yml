@@ -17,6 +17,8 @@ author:
   name:           'Dr. Yanjun Qi'
   url:            https://www.yanjunqi.org/
 
+theme: minimal-mistakes-jekyll
+
 
 collections:
   contents:
