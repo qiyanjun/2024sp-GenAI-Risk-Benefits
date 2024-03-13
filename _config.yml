@@ -17,10 +17,12 @@ author:
   name:           'Dr. Yanjun Qi'
   url:            https://www.yanjunqi.org/
 
-theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyll
 
+remote_theme: jekyll/minima
 
 collections:
   contents:
     sort_by: LOrder
     output: true
+
