@@ -12,7 +12,7 @@ desc: "2024 Spring  UVa CS Machine Learning Lectures Organized by Given Order"
 <table id="datatab3" summary="Table of posts" border="1">
 <tr>
  <h3><b>
-  <th>Index</th>  
+  <th>No.</th>  
   <th>Title</th>
   </b>
   </h3>
@@ -44,7 +44,7 @@ desc: "2024 Spring  UVa CS Machine Learning Lectures Organized by Given Order"
   <div class="post">
     <h1 class="post-title"><a name="{{ counter }}"></a>
       <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
+        {{ counter }}.{{ post.title }}
       </a>
     </h1>
  
