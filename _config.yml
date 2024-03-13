@@ -18,8 +18,7 @@ author:
   url:            https://www.yanjunqi.org/
 
 #theme: minimal-mistakes-jekyll
-
-remote_theme: jekyll/minima
+remote_theme: minimal-mistakes-jekyll
 
 collections:
   contents:
