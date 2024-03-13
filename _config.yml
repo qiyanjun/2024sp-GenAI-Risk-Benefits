@@ -26,4 +26,4 @@ collections:
     output: true
 
 plugins: 
-  jekyll-include-cache
+  - jekyll-include-cache
