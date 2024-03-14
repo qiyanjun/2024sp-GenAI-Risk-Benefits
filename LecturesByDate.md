@@ -7,16 +7,44 @@ desc: "2024 Spring  UVa CS Machine Learning Lectures Organized by Given Order"
 
 <p><a name="topPage"></a></p>
 
+
+
+<table id="datatab3" summary="Table of posts" border="1">
+<tr>
+ <h3><b>
+  <th>No.</th>  
+  <th>Title</th>
+  </b>
+  </h3>
+</tr>
+
+
+  {% assign counter = 1 %}
+  {% assign sorted = site.contents   %}
+  {% for post in sorted %}
+  <tr>
+  <td>{{ counter }}</td>  
+  <td><a href="#{{ counter }}">{{ post.title }} 
+  </a></td>
+  </tr>
+
+  {% assign counter=counter | plus:1 %}
+{% endfor %}
+</table>
+
+
 <div class="posts">
 
 ----  ----  
+{% assign counter = 1 %}
 {% assign sorted = site.contents   %}
 {% for post in sorted %}
 
+
   <div class="post">
-    <h1 class="post-title">
+    <h1 class="post-title"><a name="{{ counter }}"></a>
       <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
+        {{ counter }}.{{ post.title }}
       </a>
     </h1>
  
@@ -32,7 +60,7 @@ desc: "2024 Spring  UVa CS Machine Learning Lectures Organized by Given Order"
   {% endif %}
 
   {% if post.notes %}
-  <li>Notes to Read: {{ post.notes }} </li>
+  <li>Blog: {{ post.notes }} </li>
   {% endif %}
 
   {% if post.morenotes %}
@@ -40,7 +68,7 @@ desc: "2024 Spring  UVa CS Machine Learning Lectures Organized by Given Order"
   {% endif %}
 
   {% if post.video %}
-  <li>Video: {{ post.video }} </li>
+  <li>Lead: {{ post.video }} </li>
   {% endif %}
 
 </ul>
@@ -64,6 +92,7 @@ desc: "2024 Spring  UVa CS Machine Learning Lectures Organized by Given Order"
   </div>
 <hr>
 
+{% assign counter=counter | plus:1 %}
 {% endfor %}
 </div>
 
