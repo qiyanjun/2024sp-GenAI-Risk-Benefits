@@ -15,14 +15,14 @@ layout: default
   {% endif %}
 
 
-  {% if post.notes %}
-  <li>Post to write: {{ post.notes }} </li>
-  {% endif %}
-
-
   {% if post.video %}
-  <li>Lead to Read:   {{ post.video }} </li>
+  <li>Lead team:   {{ post.video }} </li>
   {% endif %}
+
+  {% if post.notes %}
+  <li>Blog team: {{ post.notes }} </li>
+  {% endif %}
+
 
 </ul>
 
