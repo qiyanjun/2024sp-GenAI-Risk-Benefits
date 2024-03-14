@@ -60,7 +60,7 @@ desc: "2024 Spring  UVa CS Machine Learning Lectures Organized by Given Order"
   {% endif %}
 
   {% if post.notes %}
-  <li>Notes to Read: {{ post.notes }} </li>
+  <li>Blog: {{ post.notes }} </li>
   {% endif %}
 
   {% if post.morenotes %}
@@ -68,7 +68,7 @@ desc: "2024 Spring  UVa CS Machine Learning Lectures Organized by Given Order"
   {% endif %}
 
   {% if post.video %}
-  <li>Video: {{ post.video }} </li>
+  <li>Lead: {{ post.video }} </li>
   {% endif %}
 
 </ul>
