@@ -6,6 +6,8 @@ lectureVersion: current
 extraContent: 
 notes: instructor
 video: on nlp basics
+tags:
+- BasicLLM
 ---
 
 
