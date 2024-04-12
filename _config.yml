@@ -18,7 +18,12 @@ author:
   url:            https://www.yanjunqi.org/
 
 
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+
 collections:
   contents:
     sort_by: LOrder
     output: true
+
+plugins: 
+  - jekyll-include-cache

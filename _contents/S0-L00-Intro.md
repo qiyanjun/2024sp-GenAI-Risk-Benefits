@@ -6,7 +6,14 @@ lectureVersion: current
 extraContent: 
 notes: instructor
 video: on nlp basics
+tags:
+- BasicLLM
+desc: 2024-S0
+term: 2024-seminarRead
+categories:
+- FMBasic
 ---
+
 
 
 ## Readings: 
