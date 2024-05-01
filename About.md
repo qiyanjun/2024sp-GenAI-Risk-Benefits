@@ -44,16 +44,13 @@ Students in the seminar are expected to:
 + Course annoucement via: [24sp-cs-6501-genai@collab.its.virginia.edu](24sp-cs-6501-genai@collab.its.virginia.edu)
 
 
-+ Email instructors via [24sp-cs6501-010-teachers@collab.its.virginia.edu](mailto:24sp-cs6501-010-teachers@collab.its.virginia.edu)
-
-
 +  Corrections or comments to [yanjun@virginia.edu](mailto:24sp-cs6501-010-teachers@collab.its.virginia.edu)
 
 + ##### Instructors: 
   - Prof. Yanjun Qi / [yanjun@virginia.edu](mailto:24sp-cs6501-010-teachers@collab.its.virginia.edu);
   - TA: [Zhe Wang](mailto:24sp-cs6501-010-teachers@collab.its.virginia.edu) 
-  - Instructor office hour: Mon: 7:30pm at Rice 
-  - TA office hours: Wed: 7:30pm at Rice 
+  - Instructor office hour: Mon: 7:30pm via Zoom 
+  - TA office hours: Wed: 7:30pm via Zoom
   - Blogging guide hour: Thur 7:30pm via Zoom
 
 
