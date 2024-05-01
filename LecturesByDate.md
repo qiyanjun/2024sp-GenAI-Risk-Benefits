@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ReadingPosts
-desc: "2024 Spring  UVa CS Machine Learning Lectures Organized by Given Order"
+desc: "2024 Spring  UVa CS Generative AI Seminar Lectures Organized by Given Order"
 ---
 
 
@@ -51,7 +51,8 @@ desc: "2024 Spring  UVa CS Machine Learning Lectures Organized by Given Order"
  <ul>
   {% if post.lecture %}
   <li><a href="{{ site.baseurl }}/Lectures/{{ post.lecture }}.pdf"  target="_blank">Lecture: 
-  {{ post.lecture }}</a></li>
+  {{ post.lecture }}</a>
+  </li>
   <li>Version: {{ post.lectureVersion }}</li>
   {% endif %}
 
@@ -79,18 +80,17 @@ desc: "2024 Spring  UVa CS Machine Learning Lectures Organized by Given Order"
 
 <br>
 
-
-  {% if post.lecture  %}
-    {% if post.lectureVersion contains 'current' %}
-
+<h3>Summary of Post :</h3>
+    {% if post.content contains '<!--excerpt.start-->'  %}
+      {{   post.content | split:'<!--excerpt.start-->' | first  }}
+    {% else %}
+      {{ post.content }}
     {% endif %}
-  {% endif %}
-
-    {{ post.content }}
-
 
   </div>
 <hr>
+
+<h3 style="color: blue;">Please click each post's URL shown below to check out its full contents. </h3>
 
 {% assign counter=counter | plus:1 %}
 {% endfor %}
