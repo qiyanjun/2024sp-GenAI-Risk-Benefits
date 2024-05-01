@@ -90,6 +90,8 @@ desc: "2024 Spring  UVa CS Machine Learning Lectures Organized by Given Order"
   </div>
 <hr>
 
+<h3 style="color: blue;">Please click each post's URL shown above to check out its full contents. </h3>
+
 {% assign counter=counter | plus:1 %}
 {% endfor %}
 </div>
