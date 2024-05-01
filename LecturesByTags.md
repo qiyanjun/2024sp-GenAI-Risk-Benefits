@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ReadingByTag
-desc: "2024 Spring  UVa CS Machine Learning Lectures Organized by Tags"
+desc: "2024 Spring  UVa CS Generative AI Seminar Lectures Organized by Tags"
 ---
 <p><a name="topPage"></a></p>
 

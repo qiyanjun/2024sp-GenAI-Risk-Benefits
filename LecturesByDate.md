@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ReadingPosts
-desc: "2024 Spring  UVa CS Machine Learning Lectures Organized by Given Order"
+desc: "2024 Spring  UVa CS Generative AI Seminar Lectures Organized by Given Order"
 ---
 
 
