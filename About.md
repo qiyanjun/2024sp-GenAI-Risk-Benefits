@@ -7,11 +7,6 @@ desc: "Information for 2024 Spring UVa CS -GenAI-Risk-Benefits"
 
 ### [The official Academic Calendar at UVA Registrar](http://www.virginia.edu/registrar/calendar.html)
 
-### Course Basics:
-
-+ TuTh 9:30am - 10:45PM  
-+ Rice 340
-
 
 ### Prerequisite:
 
